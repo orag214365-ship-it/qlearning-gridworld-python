@@ -5,7 +5,7 @@ A light-weight, zero-framework Reinforcement Learning (RL) environment built fro
 
 ---
 
-## 📌 Project Overview
+##  Project Overview
 
 Instead of relying on heavy frameworks like OpenAI Gymnasium or Stable-Baselines3, this project implements the fundamental mechanics of tabular Q-learning natively:
 
@@ -16,7 +16,7 @@ Instead of relying on heavy frameworks like OpenAI Gymnasium or Stable-Baselines
 
 ---
 
-## 🧠 Reinforcement Learning Design
+## Reinforcement Learning Design
 
 ### State Space & Actions
 * **States:** Discrete tuples representing the agent's current position $(r, c)$ on a 6x6 grid ($1 \le r, c \le 6$).
@@ -29,7 +29,7 @@ Instead of relying on heavy frameworks like OpenAI Gymnasium or Stable-Baselines
 
 ---
 
-## 📊 Q-Table Heatmap Visualization
+##  Q-Table Heatmap Visualization
 
 After training completes, the environment generates a heatmap visualizer showing max $Q(s, a)$ values for all positions:
 
@@ -37,7 +37,7 @@ After training completes, the environment generates a heatmap visualizer showing
 
 ---
 
-## 🚀 Getting Started
+##  Getting Started
 
 ### Prerequisites
 
@@ -52,7 +52,7 @@ pip install numpy matplotlib seaborn
 
 1. **Clone the repository:**
 ```bash
-git clone [https://github.com/YOUR_USERNAME/qlearning-gridworld-python.git](https://github.com/YOUR_USERNAME/qlearning-gridworld-python.git)
+git clone [https://github.com/orag214365-ship-it/qlearning-gridworld-python.git](https://github.com/orag214365-ship-it/qlearning-gridworld-python.git)
 cd qlearning-gridworld-python
 
 ```
@@ -68,7 +68,7 @@ python main.py
 
 ---
 
-## 🛠️ Code Architecture
+##  Code Architecture
 
 * `Agent`: Class managing state representations, action selection strategies, the underlying Q-table dictionary structure, training iterations, step execution, and heatmap rendering.
 * `Agent.train()`: Executes training over $N$ episodes using Bellman equation updates.
@@ -76,7 +76,7 @@ python main.py
 
 ---
 
-## 📄 License
+##  License
 
 This project is open-source and available under the [MIT License](https://www.google.com/search?q=LICENSE).
 
